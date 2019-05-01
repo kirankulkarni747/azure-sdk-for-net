@@ -1,20 +1,22 @@
 {
   "Entries": [
     {
-      "RequestUri": "/subscriptions/4004a9fd-d58e-48dc-aeb2-4a4aec58606f/providers/Microsoft.Authorization/denyAssignments?$filter=atScope()&api-version=2018-07-01-preview",
-      "EncodedRequestUri": "L3N1YnNjcmlwdGlvbnMvNDAwNGE5ZmQtZDU4ZS00OGRjLWFlYjItNGE0YWVjNTg2MDZmL3Byb3ZpZGVycy9NaWNyb3NvZnQuQXV0aG9yaXphdGlvbi9kZW55QXNzaWdubWVudHM/JGZpbHRlcj1hdFNjb3BlKCkmYXBpLXZlcnNpb249MjAxOC0wNy0wMS1wcmV2aWV3",
+      "RequestUri": "/subscriptions/4004a9fd-d58e-48dc-aeb2-4a4aec58606f/providers/Microsoft.Authorization/denyAssignments?$filter=atScope()&api-version=2018-07-01",
+      "EncodedRequestUri": "L3N1YnNjcmlwdGlvbnMvNDAwNGE5ZmQtZDU4ZS00OGRjLWFlYjItNGE0YWVjNTg2MDZmL3Byb3ZpZGVycy9NaWNyb3NvZnQuQXV0aG9yaXphdGlvbi9kZW55QXNzaWdubWVudHM/JGZpbHRlcj1hdFNjb3BlKCkmYXBpLXZlcnNpb249MjAxOC0wNy0wMQ==",
       "RequestMethod": "GET",
       "RequestBody": "",
       "RequestHeaders": {
         "x-ms-client-request-id": [
-          "c57528ea-5845-43bf-9367-a7e8dcb11258"
+          "f83deca1-4cb6-4589-925f-eb8a018a37d0"
         ],
         "accept-language": [
           "en-US"
         ],
         "User-Agent": [
           "FxVersion/4.6.26614.01",
-          "Microsoft.Azure.Management.Authorization.AuthorizationManagementClient/2.9.0.0"
+          "OSName/Windows",
+          "OSVersion/Microsoft.Windows.10.0.17763.",
+          "Microsoft.Azure.Management.Authorization.AuthorizationManagementClient/2.11.0.0"
         ]
       },
       "ResponseHeaders": {
@@ -22,22 +24,19 @@
           "no-cache"
         ],
         "Date": [
-          "Mon, 22 Oct 2018 21:30:11 GMT"
+          "Wed, 01 May 2019 21:49:01 GMT"
         ],
         "Pragma": [
           "no-cache"
         ],
-        "Server": [
-          "Microsoft-IIS/10.0"
-        ],
         "Set-Cookie": [
-          "x-ms-gateway-slice=productionb; path=/; secure; HttpOnly"
+          "x-ms-gateway-slice=Production; path=/; secure; HttpOnly"
         ],
         "x-ms-request-charge": [
           "1"
         ],
         "x-ms-request-id": [
-          "95b52645-6b7f-43c4-afa7-d4d65b6339cb"
+          "d285ad91-4fce-4bb6-b409-46bbbcef090b"
         ],
         "X-Content-Type-Options": [
           "nosniff"
@@ -49,10 +48,10 @@
           "11999"
         ],
         "x-ms-correlation-request-id": [
-          "4dfc8733-f38c-40e1-937f-7d4c79a8655f"
+          "b30195d8-b219-4f2b-8752-beedab3a94f0"
         ],
         "x-ms-routing-request-id": [
-          "WESTUS2:20181022T213012Z:4dfc8733-f38c-40e1-937f-7d4c79a8655f"
+          "WESTUS2:20190501T214901Z:b30195d8-b219-4f2b-8752-beedab3a94f0"
         ],
         "Content-Length": [
           "842"
