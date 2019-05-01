@@ -1481,7 +1481,7 @@ namespace Authorization.Tests
             }
         }
 
-        [Fact(Skip = "Enable after principalId filter change gets deployed to PROD")]
+        [Fact]
         public void DenyAssignmentsListUsingPrincipalIdFilterTest()
         {
             HttpMockServer.RecordsDirectory = GetSessionsDirectoryPath();
